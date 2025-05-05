@@ -1,20 +1,13 @@
 {
-	"compilerOptions": {
-		"baseUrl": "./",
-		"module": "commonjs",
-		"outDir": "Target",
-		"rootDir": "src",
-		"sourceMap": true,
-		"strict": true,
-		"target": "es2018"
-	},
-	"exclude": [
-		"node_modules"
-	],
-	"extends": "@playform/build/tsconfig",
-	"include": [
-		"src",
-		"src",
-		"src"
-	]
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2018",
+        "outDir": "out",
+        "strict": true,
+        "sourceMap": true,
+        "rootDir": "."
+    },
+    "exclude": [
+        "node_modules"
+    ]
 }
